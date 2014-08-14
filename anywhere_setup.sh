@@ -120,10 +120,10 @@ if [ ! -d $ANYHWERE_751_ROOT ]; then
 	unzip Max_Anywhere_WM_V751.zip -d ./AnywhereWorkManager
 
 	#Start Installer
-	echo -e "${blue}Continue with the installer ...${NC}"
+	echo -e "${blue}Continue with the launchpad installer ...${NC}"
 	cd AnywhereWorkManager
 	chmod -R 755 ./
-	./launchpad.sh
+	sudo ./launchpad.sh
 fi
 
 
